@@ -32,7 +32,7 @@ A unified intelligence dashboard for quantitative analysts. Type one question an
 Open your terminal and run:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/alphafund-terminal.git
+git clone https://github.com/YOUR-USERNAME/AlphaIntelligence.git
 cd alphafund-terminal
 ```
 
@@ -145,7 +145,7 @@ Click **▸ ROUTING LOG** below the response to see which tools fired.
 ### Step 1 — Create a GitHub Repo
 
 1. Go to **[github.com/new](https://github.com/new)**
-2. Name it `alphafund-terminal`
+2. Name it `AlphaIntelligence`
 3. Set it to **Public**
 4. Do **NOT** tick "Add README" — we already have one
 5. Click **Create repository**
@@ -169,7 +169,7 @@ git add app.py requirements.txt README.md .env.example .gitignore
 git commit -m "Initial commit: AlphaFund Terminal"
 
 # Connect to GitHub (replace YOUR-USERNAME)
-git remote add origin https://github.com/YOUR-USERNAME/alphafund-terminal.git
+git remote add origin https://github.com/YOUR-USERNAME/AlphaIntelligence.git
 
 # Push
 git branch -M main
@@ -184,7 +184,7 @@ git push -u origin main
 2. Sign in with your GitHub account
 3. Click **New app**
 4. Fill in:
-   - **Repository:** `YOUR-USERNAME/alphafund-terminal`
+   - **Repository:** `YOUR-USERNAME/AlphaIntelligence`
    - **Branch:** `main`
    - **Main file path:** `app.py`
 5. Click **Advanced settings**
